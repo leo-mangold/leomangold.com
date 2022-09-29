@@ -44,13 +44,13 @@
 		</TextSection>
 	</div>
 
-	<a href="/projects/thegroceriesapp">
+	<a href="/projects/thegroceriesapp.html">
 		<Project number="01" title="The Groceries App" description="Groceries made simple." />
 	</a>
-	<a href="/projects/nofate/">
+	<a href="/projects/nofate.html">
 		<Project number="02" title="NoFate" description="A streetware fashion brand." />
 	</a>
-	<a href="/projects/bergheimbau/">
+	<a href="/projects/bergheimbau.html">
 		<Project
 			number="03"
 			title="Bergheim Bau"
