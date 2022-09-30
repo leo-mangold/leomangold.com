@@ -85,7 +85,7 @@
 
 		<p class="mb-4">
 			I'm a graphic designer and computer science student based in The Netherlands. I am half German
-			half Dutch and lives most of my live in Germany.
+			half Dutch and lived most of my live in Germany.
 		</p>
 
 		<p class="mb-4">
@@ -93,9 +93,9 @@
 			the TU Delft.
 		</p>
 
-		<p class="mb-4">I'm always on the look for a challenge, and you project seems perfect.</p>
+		<p class="mb-4">I'm always on the look out for a challenge, and you project seems perfect.</p>
 
-		<p class="mb-4">So whats holding you back? Shoot me a message and we can get this started.</p>
+		<p class="mb-4">So whats holding you back? Shoot me a message and we can get started.</p>
 	</TextSection>
 </section>
 
