@@ -7,8 +7,8 @@
 
 <FadeIn>
 	<h1 class="headline">{title}</h1>
-	<h2 class="text-2xl mb-8">{subTitle}</h2>
+	<h2 class="mb-8 text-2xl">{subTitle}</h2>
 </FadeIn>
-<div class="max-w-screen-md mb-16">
+<div class="mb-16 max-w-screen-md">
 	<slot />
 </div>

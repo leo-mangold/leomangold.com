@@ -15,7 +15,7 @@
 	</FadeIn>
 
 	<FadeIn>
-		<div class="flex my-8">
+		<div class="my-8 flex">
 			<div class="sm:w-1/2">
 				<p class="mb-4">
 					Developed an app, to simplify daily grocery shopping for individuals and families.
@@ -34,7 +34,7 @@
 		</div>
 	</FadeIn>
 	<FadeIn>
-		<div class="flex gap-8 my-8">
+		<div class="my-8 flex gap-8">
 			<div class=" w-1/3">
 				<img src="/projects/thegroceriesapp/signup_page.png" alt="" />
 			</div>
@@ -49,11 +49,11 @@
 		</div>
 	</FadeIn>
 	<FadeIn>
-		<h3 class="font-bold py-4">Future plans</h3>
+		<h3 class="py-4 font-bold">Future plans</h3>
 		<ul class="mb-4">
-			<li class="p-4 list-disc list-inside">Product suggestions</li>
-			<li class="p-4 list-disc list-inside">Discount detection</li>
-			<li class="p-4 list-disc list-inside">In store reminders</li>
+			<li class="list-inside list-disc p-4">Product suggestions</li>
+			<li class="list-inside list-disc p-4">Discount detection</li>
+			<li class="list-inside list-disc p-4">In store reminders</li>
 		</ul>
 		<p>More coming soon...</p>
 	</FadeIn>

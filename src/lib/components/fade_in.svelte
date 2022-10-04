@@ -25,6 +25,6 @@
 	});
 </script>
 
-<div bind:this={root} class="opacity-0 transition ease-in duration-500">
+<div bind:this={root} class="opacity-0 transition duration-500 ease-in">
 	<slot />
 </div>

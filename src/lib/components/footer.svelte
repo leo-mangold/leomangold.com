@@ -1,8 +1,8 @@
 <footer>
-	<div class="md:w-2/3 md:ml-auto mx-8 py-8">
+	<div class="mx-8 py-8 md:ml-auto md:w-2/3">
 		<div class="flex flex-row space-x-8">
 			<div class="flex-1">
-				<div class="font-serif font-bold text-3xl">Leo Mangold</div>
+				<div class="font-serif text-3xl font-bold">Leo Mangold</div>
 			</div>
 			<div class="flex-1">
 				<a href="sms:{import.meta.env.VITE_PHONE}" class="nav-link block"> Text </a>

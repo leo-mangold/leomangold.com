@@ -25,7 +25,7 @@
 	<meta name="theme-color" content={col} />
 </svelte:head>
 
-<div class="main text-white text-xl min-h-screen">
+<div class="main min-h-screen text-xl text-white">
 	<Nav />
 	<div class="main-content mx-8  md:ml-auto  md:w-2/3">
 		<div class="min-h-screen">

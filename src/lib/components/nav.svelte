@@ -3,9 +3,9 @@
 </script>
 
 <FadeIn>
-	<div class="navbar p-8 sm:flex items-stretch space-y-2">
+	<div class="navbar items-stretch space-y-2 p-8 sm:flex">
 		<a href="/" class=" flex-1">
-			<h2 class="font-serif font-bold text-4xl">Leo Mangold</h2>
+			<h2 class="font-serif text-4xl font-bold">Leo Mangold</h2>
 		</a>
 		<div class="nav-links my-auto flex-initial space-x-4">
 			<a href="sms:{import.meta.env.VITE_PHONE}" class="underline-animation"> Text </a>

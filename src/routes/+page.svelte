@@ -40,7 +40,7 @@
 <section class="projects pb-8">
 	<div class="mb-4">
 		<TextSection title="Projects">
-			<div class="border-t hidden sm:inline-block border-white my-auto w-20 md:inline-block" />
+			<div class="my-auto hidden w-20 border-t border-white sm:inline-block md:inline-block" />
 		</TextSection>
 	</div>
 
@@ -100,13 +100,13 @@
 </section>
 
 <!-- CONTACT -->
-<section class="contact inline-block group py-8 ">
+<section class="contact group inline-block py-8 ">
 	<FadeIn>
 		<a href="mailto:{import.meta.env.VITE_EMAIL}">
-			<p class="font-serif font-bold text-6xl">Get in Touch!</p>
+			<p class="font-serif text-6xl font-bold">Get in Touch!</p>
 			<div class="border-t" />
 			<p
-				class="opacity-0 group-hover:opacity-100 overflow-hidden transition duration-300 ease-in-out"
+				class="overflow-hidden opacity-0 transition duration-300 ease-in-out group-hover:opacity-100"
 			>
 				{import.meta.env.VITE_EMAIL}
 			</p>

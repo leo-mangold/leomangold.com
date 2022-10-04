@@ -7,8 +7,8 @@
 </script>
 
 <FadeIn>
-	<div class="flex flex-row py-4 px-4 background-animation">
-		<div class="basis-1/4 sm:basis-1/3 sm:ml-auto  max-w-md">
+	<div class="background-animation flex flex-row py-4 px-4">
+		<div class="max-w-md basis-1/4 sm:ml-auto  sm:basis-1/3">
 			{number}
 		</div>
 		<div class="basis-3/4 sm:basis-2/3">
