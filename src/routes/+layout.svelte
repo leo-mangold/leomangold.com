@@ -27,7 +27,7 @@
 
 <div class="main min-h-screen text-xl text-white">
 	<Nav />
-	<div class="main-content mx-8  md:ml-auto  md:w-2/3">
+	<div class="main-content mx-6 sm:mx-8 md:ml-auto  md:w-2/3">
 		<div class="min-h-screen">
 			<slot />
 		</div>
