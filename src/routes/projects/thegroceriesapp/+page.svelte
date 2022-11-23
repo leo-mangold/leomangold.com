@@ -6,7 +6,7 @@
 <ProjectPage title="The Groceries App" subTitle="Groceries made simple">
 	<FadeIn>
 		<p class="py-4">
-			<span class="font-bold">The Groceries App</span> is a all in one solution to simplify your grocery
+			<span class="font-bold">The Groceries App</span> is an all in one solution to simplify your grocery
 			shopping. Groceries are sorted by tags and can be divided over multiple lists. All lists can be
 			shared and synchronized with your whole family, your roommates, your partner, or be just for you
 			all alone.

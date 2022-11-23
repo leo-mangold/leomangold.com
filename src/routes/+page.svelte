@@ -12,7 +12,7 @@
 <!-- HERO -->
 
 <FadeIn>
-	<div class="mt-16 mb-48">
+	<div class="mb-24 mt-16 sm:mb-48 ">
 		<div class=" sm:h-7/12 headline">
 			<div class="my-auto sm:mt-auto sm:mb-0 ">
 				<div class="short sm:hidden">
@@ -93,7 +93,7 @@
 			the TU Delft.
 		</p>
 
-		<p class="mb-4">I'm always on the look out for a challenge, and you project seems perfect.</p>
+		<p class="mb-4">I'm always on the look out for a challenge, and your project seems perfect.</p>
 
 		<p class="mb-4">So whats holding you back? Shoot me a message and we can get started.</p>
 	</TextSection>
