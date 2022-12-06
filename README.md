@@ -1,4 +1,4 @@
-#leomangold.com
+# leomangold.com
 This is my personal homepage: leomangold.com
 
 ## Running locally
