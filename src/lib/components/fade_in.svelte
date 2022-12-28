@@ -8,16 +8,13 @@
 				if (entry.isIntersecting) {
 					entry.target.classList.remove('opacity-0');
 					entry.target.classList.add('opacity-100');
-					// observer.unobserve(entry.target);
-				} else {
-					entry.target.classList.add('opacity-0');
-					entry.target.classList.remove('opacity-100');
+					observer.unobserve(entry.target);
 				}
 			});
 		};
 
 		let options = {
-			threshold: 0
+			threshold: 0.2
 		};
 
 		let observer = new IntersectionObserver(callback, options);
@@ -25,6 +22,6 @@
 	});
 </script>
 
-<div bind:this={root} class="opacity-0 transition duration-500 ease-in">
+<div bind:this={root} class="opacity-0 transition ease-in duration-500 inline-block">
 	<slot />
 </div>

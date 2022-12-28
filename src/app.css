@@ -2,30 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .underline-animation {
-    border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-    background-size: 0 1px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.15s ease-in-out;
+	border-bottom-width: 0;
+	background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000);
+	background-size: 0 1px;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 0.15s ease-in-out;
 }
 
-.underline-animation:hover {
-    background-size: 100% 1px;
-    background-position: 0 100%;
+/* .underline-animation:hover {
+	background-size: 100% 1px;
+	background-position: 0 100%;
+} */
+.underline-animation-show {
+	background-size: 100% 1px !important;
+	background-position: 0 100% !important;
 }
 
-.background-animation {
-    background-color: transparent;
-    transition: background-color 0.5s ease-in-out;
-}
-
-.background-animation:hover {
-    background-color: rgba(255, 255, 255, .05);
-}
-
-.headline {
-    @apply text-6xl font-serif font-bold;
+* {
+	cursor: none;
 }

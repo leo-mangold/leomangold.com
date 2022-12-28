@@ -40,6 +40,7 @@
 		}
 	},
 	"dependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.43"
+		"@sveltejs/adapter-static": "^1.0.0-next.43",
+		"gsap": "^3.11.4"
 	}
 }
