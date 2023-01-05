@@ -2,11 +2,12 @@
 	import FadeIn from '$lib/components/fade_in.svelte';
 	import Project from '$lib/components/project.svelte';
 	import TextSection from '$lib/components/text_section.svelte';
+	import { EMAIL } from '$lib/data';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Leo Mangold</title>
+	<meta name="description" content="Software developer and designer for every challenge." />
 </svelte:head>
 
 <!-- HERO -->
@@ -59,25 +60,6 @@
 	</a>
 </section>
 
-<!-- CV -->
-<!-- <section class="cv mb-16">
-	<TextSection title="CV">
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum saepe fuga dolores ex! Ad
-			ea adipisci a odio impedit pariatur dicta molestiae. A magnam vitae, sint nisi harum,
-			veritatis eligendi nihil nam voluptates dicta omnis architecto, cum impedit. Veniam rerum
-			aspernatur dolores, corrupti cupiditate itaque atque soluta accusantium eligendi qui molestias
-			culpa odio!
-		</p>
-		<p>
-			Doloremque nisi, totam quos accusamus doloribus dolores eius, reiciendis, quod excepturi rem
-			nulla illo. Ipsa harum cupiditate, maxime earum debitis impedit repellat numquam aperiam eius
-			veritatis ullam ratione cumque inventore vero vitae in maiores reprehenderit id nemo accusamus
-			quae molestias voluptatibus illo! Dolorum voluptates voluptatum deserunt!
-		</p>
-	</TextSection>
-</section> -->
-
 <!-- ABOUT -->
 <section class="about mb-8">
 	<TextSection title="About">
@@ -102,13 +84,13 @@
 <!-- CONTACT -->
 <section class="contact group inline-block py-8 ">
 	<FadeIn>
-		<a href="mailto:{import.meta.env.VITE_EMAIL}">
+		<a href="mailto:{EMAIL}">
 			<p class="font-serif text-6xl font-bold">Get in Touch!</p>
 			<div class="border-t" />
 			<p
 				class="overflow-hidden opacity-0 transition duration-300 ease-in-out group-hover:opacity-100"
 			>
-				{import.meta.env.VITE_EMAIL}
+				{EMAIL}
 			</p>
 		</a>
 	</FadeIn>

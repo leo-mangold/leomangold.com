@@ -1,4 +1,5 @@
 <script>
+	import { EMAIL, PHONE } from '$lib/data';
 	import FadeIn from './fade_in.svelte';
 </script>
 
@@ -8,8 +9,8 @@
 			<h2 class="font-serif text-4xl font-bold">Leo Mangold</h2>
 		</a>
 		<div class="nav-links my-auto flex-initial space-x-4">
-			<a href="sms:{import.meta.env.VITE_PHONE}" class="underline-animation"> Text </a>
-			<a href="mailto:{import.meta.env.VITE_EMAIL}" class="underline-animation">Email</a>
+			<a href="sms:{PHONE}" class="underline-animation"> Text </a>
+			<a href="mailto:{EMAIL}" class="underline-animation">Email</a>
 			<!-- <a href="/contact" class="underline-animation">Contact</a> -->
 		</div>
 	</div>
