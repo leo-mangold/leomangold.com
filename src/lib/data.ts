@@ -1,2 +1,2 @@
-export const EMAIL = 'contact@leomangold.com';
-export const PHONE = '+4917673558560';
+export const EMAIL = 'hello@leomangold.com';
+export const PHONE = '+31617662088';

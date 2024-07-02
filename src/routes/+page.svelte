@@ -1,8 +1,36 @@
-<script>
+<script lang="ts">
 	import FadeIn from '$lib/components/fade_in.svelte';
 	import Project from '$lib/components/project.svelte';
 	import TextSection from '$lib/components/text_section.svelte';
 	import { EMAIL } from '$lib/data';
+
+	const projects = [
+		{
+			title: 'Be My Guest',
+			description: 'Revolutionizing how we discovery restaurants.',
+			link: '/projects/be-my-guest'
+		},
+		{
+			title: 'RTTR - Customs',
+			description: 'Modernising customs.',
+			link: '/projects/rttr'
+		},
+		{
+			title: 'The Groceries App',
+			description: 'Groceries made simple.',
+			link: '/projects/thegroceriesapp'
+		},
+		{
+			title: 'NoFate',
+			description: 'A streetware fashion brand.',
+			link: '/projects/nofate'
+		},
+		{
+			title: 'Bergheim Bau',
+			description: 'A portfolio webpage for a construction company.',
+			link: '/projects/bergheimbau'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -13,24 +41,23 @@
 <!-- HERO -->
 
 <FadeIn>
-	<div class="mb-24 mt-16 sm:mb-48 ">
+	<div class="mb-24 mt-16 sm:mb-48">
 		<div class=" sm:h-7/12 headline">
-			<div class="my-auto sm:mt-auto sm:mb-0 ">
+			<div class="my-auto sm:mb-0 sm:mt-auto">
 				<div class="short sm:hidden">
 					<p>
+						<span class="text-black">Software</span> Engineer and
 						<span class="text-black">Graphic</span> and
 						<span class="text-black">Fashion</span> Designer.
 					</p>
-					<p>
-						<span class="text-black"> Software</span> Engineer.
-					</p>
 				</div>
 				<div class="long hidden sm:inline">
-					<span class="text-black">Graphic</span>, <span class="text-black">Web</span>, and
-					<span class="text-black">Fashion</span>
-					Designer based in The Netherlands. Currently juggling computer science courses at TU Delft
-					to become a
-					<span class="text-black">Software Engineer</span>.
+					<p>
+						<span class="text-black">Software</span> Engineer and
+						<span class="text-black">Graphic </span> and <span class="text-black">Fashion</span>
+						Designer based in The Netherlands.
+					</p>
+					<p>Currently juggling work, projects, and computer science courses.</p>
 				</div>
 			</div>
 		</div>
@@ -45,22 +72,15 @@
 		</TextSection>
 	</div>
 
-	<a href="/projects/rttr">
-		<Project number="01" title="RTTR - Customs" description="Modernising customs" />
-	</a>
-	<a href="/projects/thegroceriesapp">
-		<Project number="01" title="The Groceries App" description="Groceries made simple." />
-	</a>
-	<a href="/projects/nofate">
-		<Project number="02" title="NoFate" description="A streetware fashion brand." />
-	</a>
-	<a href="/projects/bergheimbau">
-		<Project
-			number="03"
-			title="Bergheim Bau"
-			description="A portfolio webpage for a construction company."
-		/>
-	</a>
+	{#each projects as project, i}
+		<a href={project.link}>
+			<Project
+				number={(i + 1).toString().padStart(2, '0')}
+				title={project.title}
+				description={project.description}
+			/>
+		</a>
+	{/each}
 </section>
 
 <!-- ABOUT -->
@@ -69,23 +89,28 @@
 		<p class="mb-4">Hi I'm Leo,</p>
 
 		<p class="mb-4">
-			I'm a graphic designer and computer science student based in The Netherlands. I am half German
-			half Dutch and lived most of my live in Germany.
+			I'm a software developer and graphic designer based in The Netherlands. I am half German half
+			Dutch and lived most of my live in Germany before moving to The Netherlands for my computer
+			science and engineering program at the TU Delft.
 		</p>
 
 		<p class="mb-4">
 			2022 I finished the German Abitur and started my computer science and engineering program at
-			the TU Delft.
+			the TU Delft. Throughtout my studies I've been working at a lot of different companies and
+			projects.
 		</p>
 
-		<p class="mb-4">I'm always on the look out for a challenge, and your project seems perfect.</p>
+		<p class="mb-4">
+			I have a passion for creating great user experiences and I'm always on the look out for a
+			challenge, and your project seems perfect.
+		</p>
 
-		<p class="mb-4">So whats holding you back? Shoot me a message and we can get started.</p>
+		<p class="mb-4">So whats holding you back? Shoot me a message and we can get started!</p>
 	</TextSection>
 </section>
 
 <!-- CONTACT -->
-<section class="contact group inline-block py-8 ">
+<section class="contact group inline-block py-8">
 	<FadeIn>
 		<a href="mailto:{EMAIL}">
 			<p class="font-serif text-6xl font-bold">Get in Touch!</p>
